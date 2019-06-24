@@ -1,0 +1,71 @@
+﻿  WGraph.cpp
+f:\testcode\sorts\wgraph\unionfind.h(62): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+f:\testcode\sorts\wgraph\wgraph.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
+f:\testcode\sorts\wgraph\wgraph.cpp(48): warning C4018: “<”: 有符号/无符号不匹配
+f:\testcode\sorts\wgraph\kruskalmst.h(34): warning C4018: “<”: 有符号/无符号不匹配
+  f:\testcode\sorts\wgraph\kruskalmst.h(21): note: 编译类 模板 成员函数“KruskalMST<WSparseGraph<double>,double>::KruskalMST(Graph &)”时
+          with
+          [
+              Graph=WSparseGraph<double>
+          ]
+  f:\testcode\sorts\wgraph\wgraph.cpp(46): note: 参见对正在编译的函数 模板 实例化“KruskalMST<WSparseGraph<double>,double>::KruskalMST(Graph &)”的引用
+          with
+          [
+              Graph=WSparseGraph<double>
+          ]
+  f:\testcode\sorts\wgraph\wgraph.cpp(46): note: 参见对正在编译的类 模板 实例化“KruskalMST<WSparseGraph<double>,double>”的引用
+f:\testcode\sorts\wgraph\kruskalmst.h(48): warning C4018: “<”: 有符号/无符号不匹配
+f:\testcode\sorts\wgraph\lazyprimmst.h(53): warning C4018: “<”: 有符号/无符号不匹配
+  f:\testcode\sorts\wgraph\lazyprimmst.h(29): note: 编译类 模板 成员函数“LazyPrimMST<WSparseGraph<double>,double>::LazyPrimMST(Graph &)”时
+          with
+          [
+              Graph=WSparseGraph<double>
+          ]
+  f:\testcode\sorts\wgraph\wgraph.cpp(28): note: 参见对正在编译的函数 模板 实例化“LazyPrimMST<WSparseGraph<double>,double>::LazyPrimMST(Graph &)”的引用
+          with
+          [
+              Graph=WSparseGraph<double>
+          ]
+  f:\testcode\sorts\wgraph\wgraph.cpp(28): note: 参见对正在编译的类 模板 实例化“LazyPrimMST<WSparseGraph<double>,double>”的引用
+f:\testcode\sorts\wgraph\weightsparsegraph.h(59): warning C4018: “<”: 有符号/无符号不匹配
+  f:\testcode\sorts\wgraph\weightsparsegraph.h(56): note: 编译类 模板 成员函数“void WSparseGraph<double>::show(void)”时
+  f:\testcode\sorts\wgraph\wgraph.cpp(24): note: 参见对正在编译的函数 模板 实例化“void WSparseGraph<double>::show(void)”的引用
+  f:\testcode\sorts\wgraph\wgraph.cpp(22): note: 参见对正在编译的类 模板 实例化“WSparseGraph<double>”的引用
+f:\testcode\sorts\wgraph\weightsparsegraph.h(28): warning C4018: “<”: 有符号/无符号不匹配
+  f:\testcode\sorts\wgraph\weightsparsegraph.h(26): note: 编译类 模板 成员函数“WSparseGraph<double>::~WSparseGraph(void)”时
+  f:\testcode\sorts\wgraph\wgraph.cpp(22): note: 参见对正在编译的函数 模板 实例化“WSparseGraph<double>::~WSparseGraph(void)”的引用
+f:\testcode\sorts\wgraph\weightsparsegraph.h(90): warning C4018: “>=”: 有符号/无符号不匹配
+  f:\testcode\sorts\wgraph\weightsparsegraph.h(89): note: 编译类 模板 成员函数“bool WSparseGraph<double>::adjIterator::end(void)”时
+  f:\testcode\sorts\wgraph\kruskalmst.h(27): note: 参见对正在编译的函数 模板 实例化“bool WSparseGraph<double>::adjIterator::end(void)”的引用
+  f:\testcode\sorts\wgraph\kruskalmst.h(26): note: 参见对正在编译的类 模板 实例化“WSparseGraph<double>::adjIterator”的引用
+  f:\testcode\sorts\wgraph\kruskalmst.h(21): note: 编译类 模板 成员函数“KruskalMST<WSparseGraph<double>,double>::KruskalMST(Graph &)”时
+          with
+          [
+              Graph=WSparseGraph<double>
+          ]
+  f:\testcode\sorts\wgraph\wgraph.cpp(46): note: 参见对正在编译的函数 模板 实例化“KruskalMST<WSparseGraph<double>,double>::KruskalMST(Graph &)”的引用
+          with
+          [
+              Graph=WSparseGraph<double>
+          ]
+f:\testcode\sorts\wgraph\weightsparsegraph.h(84): warning C4018: “<”: 有符号/无符号不匹配
+  f:\testcode\sorts\wgraph\weightsparsegraph.h(82): note: 编译类 模板 成员函数“Edge<Weight> *WSparseGraph<Weight>::adjIterator::next(void)”时
+          with
+          [
+              Weight=double
+          ]
+  f:\testcode\sorts\wgraph\kruskalmst.h(27): note: 参见对正在编译的函数 模板 实例化“Edge<Weight> *WSparseGraph<Weight>::adjIterator::next(void)”的引用
+          with
+          [
+              Weight=double
+          ]
+f:\testcode\sorts\wgraph\weightdensegraph.h(63): warning C4800: “Edge<Weight> *”: 将值强制为布尔值“true”或“false”(性能警告)
+          with
+          [
+              Weight=double
+          ]
+  f:\testcode\sorts\wgraph\weightdensegraph.h(60): note: 编译类 模板 成员函数“bool WDenseGraph<double>::hasEdge(int,int)”时
+  f:\testcode\sorts\wgraph\weightdensegraph.h(45): note: 参见对正在编译的函数 模板 实例化“bool WDenseGraph<double>::hasEdge(int,int)”的引用
+  f:\testcode\sorts\wgraph\wgraph.cpp(17): note: 参见对正在编译的类 模板 实例化“WDenseGraph<double>”的引用
+  WGraph.vcxproj -> F:\Testcode\Sorts\Debug\WGraph.exe
+  WGraph.vcxproj -> F:\Testcode\Sorts\Debug\WGraph.pdb (Full PDB)

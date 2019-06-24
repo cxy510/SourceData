@@ -1,0 +1,4 @@
+﻿  heap.cpp
+f:\testcode\sorts\heap\heap.cpp(71): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  heap.vcxproj -> F:\Testcode\Sorts\Debug\heap.exe
+  heap.vcxproj -> F:\Testcode\Sorts\Debug\heap.pdb (Full PDB)
